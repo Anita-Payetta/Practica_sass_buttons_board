@@ -1,0 +1,137 @@
+.button {
+    font-size: 20px;
+    width: 130px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 15px;
+    background-color: #8E24AA;
+
+    &.button-success {
+        background-color: #4CAF50;
+    
+        &:hover {
+            background-color: #66BB6A;
+        }
+
+        &:active {
+            background-color: #43A047;
+        }
+    
+    }
+
+    &.button-info {
+        background-color: #3F51B5;
+    
+        &:hover {
+            background-color: #5C6BC0;
+        }
+
+        &:active {
+            background-color: #3949AB;
+        }
+    
+    }
+
+    &.button-warning {
+        background-color: #F44336;
+    
+        &:hover {
+            background-color: #EF5350;
+        }
+
+        &:active {
+            background-color: #E53935;
+        }
+    
+    }
+
+    &.button-small {
+        font-size: 16px;
+        width: 70px;
+    
+        &:hover {
+            background-color: #7E57C2;
+        }
+
+        &:active {
+            background-color: #5E35B1;
+        }
+    
+    }
+
+    &.button-medium {
+        width: 110px;
+    
+        &:hover {
+            background-color: #7E57C2;
+        }
+
+        &:active {
+            background-color: #5E35B1;
+        }
+    
+    }
+
+    &.button-large {
+        font-size: 24px;
+        width: 150px;
+    
+        &:hover {
+            background-color: #7E57C2;
+        }
+
+        &:active {
+            background-color: #5E35B1;
+        }
+    
+    }
+
+    &.button-rounded {
+        border-radius: 30px;
+        background-color: #009688;
+    
+        &:hover {
+            background-color: #26A69A;
+        }
+
+        &:active {
+            background-color: #00897B;
+        }
+    
+    }
+
+    &.button-outlined {
+        color: #009688;
+        background-color: white;
+        border: 2px solid #009688;
+        box-shadow: none;
+    
+        &:hover {
+            background-color: #CFD8DC;
+        }
+
+        &:active {
+            background-color: #F5F5F5;
+        }
+    
+    }
+
+    &.button-inverted {
+        border: none;
+        color: #009688;
+        background-color: white;
+        box-shadow: 0 0 15px 10px #009688;
+    
+        &:hover {
+            background-color: #CFD8DC;
+        }
+
+        &:active {
+            background-color: #F5F5F5;
+        }
+    
+    }
+
+}
